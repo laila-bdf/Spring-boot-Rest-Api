@@ -1,0 +1,657 @@
+"2022-08-29 11:28:50 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Starting SpringBootAppApplication using Java 14.0.2 on DESKTOP-5T9VTNI with PID 5224 (E:\Stage_pfa_2022\workspace\Spring-Boot-App\target\classes started by user in E:\Stage_pfa_2022\workspace\Spring-Boot-App)
+""2022-08-29 11:28:50 [restartedMain] INFO  c.v.s.SpringBootAppApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-08-29 11:28:51 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-08-29 11:28:51 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-08-29 11:28:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-08-29 11:28:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 129 ms. Found 2 JPA repository interfaces.
+""2022-08-29 11:28:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-08-29 11:28:56 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-08-29 11:28:56 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+""2022-08-29 11:28:56 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+""2022-08-29 11:28:56 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5960 ms
+""2022-08-29 11:28:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-08-29 11:28:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-08-29 11:28:57 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/db_demo?createDatabaseIfNotExist=true'
+""2022-08-29 11:28:58 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-08-29 11:28:58 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+""2022-08-29 11:28:58 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-08-29 11:28:58 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2022-08-29 11:29:00 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-08-29 11:29:00 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 11:29:02 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-08-29 11:29:03 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-08-29 11:29:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api/v1'
+""2022-08-29 11:29:03 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Started SpringBootAppApplication in 14.838 seconds (JVM running for 19.054)
+""2022-08-29 11:29:29 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-08-29 11:29:29 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-08-29 11:29:29 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+""2022-08-29 11:29:29 [http-nio-8080-exec-1] INFO  c.v.s.services.CommandeService - Getting page 0 of 20 commandes 
+""2022-08-29 11:29:42 [http-nio-8080-exec-3] INFO  c.v.s.services.ClientService - Getting page 0 of 20 clients 
+""2022-08-29 11:29:50 [http-nio-8080-exec-4] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 11:29:50 [http-nio-8080-exec-4] ERROR c.v.s.services.ClientService - Client with id [1] not found
+""2022-08-29 11:29:50 [http-nio-8080-exec-4] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 11:29:50 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 11:47:58 [http-nio-8080-exec-6] INFO  c.v.s.services.ClientService - Getting client with id 3
+""2022-08-29 11:47:59 [http-nio-8080-exec-6] ERROR c.v.s.services.ClientService - Client with id [3] not found
+""2022-08-29 11:47:59 [http-nio-8080-exec-6] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 11:47:59 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 11:48:26 [http-nio-8080-exec-7] INFO  c.v.s.services.ClientService - Getting client with id 8
+""2022-08-29 11:48:29 [http-nio-8080-exec-8] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:50:34 [http-nio-8080-exec-9] INFO  c.v.s.services.ClientService - Getting client with id 2
+""2022-08-29 11:50:34 [http-nio-8080-exec-9] ERROR c.v.s.services.ClientService - Client with id [2] not found
+""2022-08-29 11:50:34 [http-nio-8080-exec-9] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 11:50:34 [http-nio-8080-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 11:51:24 [http-nio-8080-exec-10] INFO  c.v.s.services.ClientService - Getting client with id 8
+""2022-08-29 11:51:25 [http-nio-8080-exec-2] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:52:48 [http-nio-8080-exec-1] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:53:08 [http-nio-8080-exec-3] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 11:53:08 [http-nio-8080-exec-3] ERROR c.v.s.services.ClientService - Client with id [1] not found
+""2022-08-29 11:53:08 [http-nio-8080-exec-3] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 11:53:08 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 11:53:21 [http-nio-8080-exec-4] INFO  c.v.s.services.ClientService - Getting client with id 8
+""2022-08-29 11:53:21 [http-nio-8080-exec-5] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:55:06 [http-nio-8080-exec-6] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:55:20 [http-nio-8080-exec-7] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:55:50 [http-nio-8080-exec-8] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:55:56 [http-nio-8080-exec-9] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:56:02 [http-nio-8080-exec-10] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:56:05 [http-nio-8080-exec-2] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:56:05 [http-nio-8080-exec-1] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:56:09 [http-nio-8080-exec-3] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:56:11 [http-nio-8080-exec-4] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:56:15 [http-nio-8080-exec-5] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:56:22 [http-nio-8080-exec-6] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:56:25 [http-nio-8080-exec-7] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:56:26 [http-nio-8080-exec-8] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:56:29 [http-nio-8080-exec-9] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:57:24 [http-nio-8080-exec-10] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 11:57:38 [http-nio-8080-exec-2] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 11:57:38 [http-nio-8080-exec-2] ERROR c.v.s.services.ClientService - Client with id [1] not found
+""2022-08-29 11:57:38 [http-nio-8080-exec-2] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 11:57:38 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 12:08:14 [http-nio-8080-exec-1] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 12:08:15 [http-nio-8080-exec-1] ERROR c.v.s.services.ClientService - Client with id [1] not found
+""2022-08-29 12:08:15 [http-nio-8080-exec-1] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 12:08:15 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 12:09:15 [http-nio-8080-exec-3] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 12:09:15 [http-nio-8080-exec-3] ERROR c.v.s.services.ClientService - Client with id [1] not found
+""2022-08-29 12:09:15 [http-nio-8080-exec-3] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 12:09:15 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 12:09:48 [http-nio-8080-exec-4] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 12:09:48 [http-nio-8080-exec-4] ERROR c.v.s.services.ClientService - Client with id [1] not found
+""2022-08-29 12:09:48 [http-nio-8080-exec-4] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 12:09:48 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 12:28:21 [http-nio-8080-exec-5] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 12:28:21 [http-nio-8080-exec-5] ERROR c.v.s.services.ClientService - Client with id [1] not found
+""2022-08-29 12:28:21 [http-nio-8080-exec-5] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 12:28:21 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 12:31:20 [http-nio-8080-exec-6] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 12:31:20 [http-nio-8080-exec-6] ERROR c.v.s.services.ClientService - Client with id [1] not found
+""2022-08-29 12:31:20 [http-nio-8080-exec-6] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 12:31:20 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 12:34:17 [http-nio-8080-exec-7] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 12:34:18 [http-nio-8080-exec-7] ERROR c.v.s.services.ClientService - Client with id [1] not found
+""2022-08-29 12:34:18 [http-nio-8080-exec-7] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 12:34:18 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 12:34:34 [http-nio-8080-exec-8] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:34:47 [http-nio-8080-exec-10] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:34:47 [http-nio-8080-exec-9] INFO  c.v.s.services.CommandeService - Getting commande with id 18
+""2022-08-29 12:34:49 [http-nio-8080-exec-9] INFO  c.v.s.services.CommandeService - Commande with id [18] deleted
+""2022-08-29 12:35:07 [http-nio-8080-exec-2] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:35:51 [http-nio-8080-exec-1] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:35:54 [http-nio-8080-exec-3] INFO  c.v.s.services.CommandeService - Getting commande with id 19
+""2022-08-29 12:35:54 [http-nio-8080-exec-3] INFO  c.v.s.services.CommandeService - Commande with id [19] deleted
+""2022-08-29 12:35:55 [http-nio-8080-exec-4] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:36:15 [http-nio-8080-exec-5] INFO  c.v.s.services.ClientService - Getting client with id 6
+""2022-08-29 12:36:15 [http-nio-8080-exec-5] ERROR c.v.s.services.ClientService - Client with id [6] not found
+""2022-08-29 12:36:15 [http-nio-8080-exec-5] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 12:36:15 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 12:36:53 [http-nio-8080-exec-6] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 12:36:53 [http-nio-8080-exec-6] ERROR c.v.s.services.ClientService - Client with id [1] not found
+""2022-08-29 12:36:53 [http-nio-8080-exec-6] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 12:36:53 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 12:39:29 [http-nio-8080-exec-7] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 12:39:29 [http-nio-8080-exec-7] ERROR c.v.s.services.ClientService - Client with id [1] not found
+""2022-08-29 12:39:29 [http-nio-8080-exec-7] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 12:39:29 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 12:39:39 [http-nio-8080-exec-8] INFO  c.v.s.services.ClientService - Getting client with id 8
+""2022-08-29 12:39:40 [http-nio-8080-exec-10] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:40:20 [http-nio-8080-exec-9] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:40:22 [http-nio-8080-exec-2] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:41:21 [http-nio-8080-exec-1] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:41:28 [http-nio-8080-exec-3] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:41:31 [http-nio-8080-exec-4] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:41:36 [http-nio-8080-exec-5] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:41:46 [http-nio-8080-exec-6] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:41:58 [http-nio-8080-exec-7] INFO  c.v.s.services.ClientService - Getting client with id 2
+""2022-08-29 12:41:58 [http-nio-8080-exec-7] ERROR c.v.s.services.ClientService - Client with id [2] not found
+""2022-08-29 12:41:58 [http-nio-8080-exec-7] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 12:41:58 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 12:42:05 [http-nio-8080-exec-8] INFO  c.v.s.services.ClientService - Getting client with id 8
+""2022-08-29 12:42:05 [http-nio-8080-exec-10] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:51:15 [http-nio-8080-exec-9] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:51:17 [http-nio-8080-exec-2] INFO  c.v.s.services.CommandeService - Getting commande with id 22
+""2022-08-29 12:51:22 [http-nio-8080-exec-1] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:55:20 [http-nio-8080-exec-3] INFO  c.v.s.services.CommandeService - Getting commande with id 22
+""2022-08-29 12:55:33 [http-nio-8080-exec-4] INFO  c.v.s.services.CommandeService - Getting commande with id 22
+""2022-08-29 12:55:43 [http-nio-8080-exec-5] INFO  c.v.s.services.CommandeService - Getting commande with id 22
+""2022-08-29 12:56:07 [http-nio-8080-exec-6] INFO  c.v.s.services.CommandeService - Getting commande with id 22
+""2022-08-29 12:56:19 [http-nio-8080-exec-7] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:56:20 [http-nio-8080-exec-8] INFO  c.v.s.services.CommandeService - Getting commande with id 22
+""2022-08-29 12:56:25 [http-nio-8080-exec-10] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:56:39 [http-nio-8080-exec-9] INFO  c.v.s.services.ClientService - Getting client with id 8
+""2022-08-29 12:56:40 [http-nio-8080-exec-2] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 12:56:43 [http-nio-8080-exec-1] INFO  c.v.s.services.CommandeService - Getting page 0 of 10 commandes 
+""2022-08-29 13:01:48 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 13:01:49 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-08-29 13:01:49 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-08-29 13:02:44 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Starting SpringBootAppApplication using Java 14.0.2 on DESKTOP-5T9VTNI with PID 12176 (E:\Stage_pfa_2022\workspace\Spring-Boot-App\target\classes started by user in E:\Stage_pfa_2022\workspace\Spring-Boot-App)
+""2022-08-29 13:02:44 [restartedMain] INFO  c.v.s.SpringBootAppApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-08-29 13:02:44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-08-29 13:02:44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-08-29 13:02:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-08-29 13:02:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102 ms. Found 2 JPA repository interfaces.
+""2022-08-29 13:02:50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-08-29 13:02:50 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-08-29 13:02:50 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+""2022-08-29 13:02:50 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+""2022-08-29 13:02:50 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6011 ms
+""2022-08-29 13:02:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-08-29 13:02:52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-08-29 13:02:52 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/db_demo?createDatabaseIfNotExist=true'
+""2022-08-29 13:02:52 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-08-29 13:02:53 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+""2022-08-29 13:02:53 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-08-29 13:02:54 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2022-08-29 13:02:59 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-08-29 13:02:59 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 13:03:02 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-08-29 13:03:02 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-08-29 13:03:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api/v1'
+""2022-08-29 13:03:02 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Started SpringBootAppApplication in 20.756 seconds (JVM running for 25.18)
+""2022-08-29 13:05:23 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-08-29 13:05:23 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-08-29 13:05:23 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+""2022-08-29 13:05:24 [http-nio-8080-exec-1] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 13:05:44 [http-nio-8080-exec-3] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients 
+""2022-08-29 13:05:48 [http-nio-8080-exec-4] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 13:05:58 [http-nio-8080-exec-5] INFO  c.v.s.services.ClientService - Getting client with id 2
+""2022-08-29 13:05:59 [http-nio-8080-exec-5] ERROR c.v.s.services.ClientService - Client with id [2] not found
+""2022-08-29 13:05:59 [http-nio-8080-exec-5] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 13:05:59 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 13:06:07 [http-nio-8080-exec-6] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 13:06:07 [http-nio-8080-exec-7] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 13:06:11 [http-nio-8080-exec-8] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients 
+""2022-08-29 13:06:16 [http-nio-8080-exec-9] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 13:06:20 [http-nio-8080-exec-10] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients 
+""2022-08-29 13:06:22 [http-nio-8080-exec-1] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 13:06:29 [http-nio-8080-exec-2] INFO  c.v.s.services.CommandeService - Getting commande with id 1
+""2022-08-29 13:06:33 [http-nio-8080-exec-3] INFO  c.v.s.services.CommandeService - Getting commande with id 1
+""2022-08-29 13:06:33 [http-nio-8080-exec-3] INFO  c.v.s.services.CommandeService - Commande with id [1] updated
+""2022-08-29 13:06:33 [http-nio-8080-exec-4] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 13:08:45 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 13:08:45 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-08-29 13:08:45 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-08-29 13:09:07 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Starting SpringBootAppApplication using Java 14.0.2 on DESKTOP-5T9VTNI with PID 9444 (E:\Stage_pfa_2022\workspace\Spring-Boot-App\target\classes started by user in E:\Stage_pfa_2022\workspace\Spring-Boot-App)
+""2022-08-29 13:09:07 [restartedMain] INFO  c.v.s.SpringBootAppApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-08-29 13:09:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-08-29 13:09:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-08-29 13:09:09 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-08-29 13:09:09 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 207 ms. Found 2 JPA repository interfaces.
+""2022-08-29 13:09:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-08-29 13:09:10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-08-29 13:09:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+""2022-08-29 13:09:10 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+""2022-08-29 13:09:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2683 ms
+""2022-08-29 13:09:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-08-29 13:09:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-08-29 13:09:10 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/db_demo?createDatabaseIfNotExist=true'
+""2022-08-29 13:09:11 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-08-29 13:09:11 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+""2022-08-29 13:09:11 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-08-29 13:09:11 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2022-08-29 13:09:14 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-08-29 13:09:14 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 13:09:15 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-08-29 13:09:15 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-08-29 13:09:15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api/v1'
+""2022-08-29 13:09:15 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Started SpringBootAppApplication in 8.605 seconds (JVM running for 10.139)
+""2022-08-29 13:09:37 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-08-29 13:09:37 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-08-29 13:09:37 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+""2022-08-29 13:09:37 [http-nio-8080-exec-1] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 13:09:55 [http-nio-8080-exec-3] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients 
+""2022-08-29 13:09:57 [http-nio-8080-exec-4] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 13:10:11 [http-nio-8080-exec-5] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 13:10:12 [http-nio-8080-exec-6] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 13:10:15 [http-nio-8080-exec-7] INFO  c.v.s.services.CommandeService - Getting commande with id 1
+""2022-08-29 13:10:21 [http-nio-8080-exec-8] INFO  c.v.s.services.CommandeService - Getting commande with id 1
+""2022-08-29 13:10:21 [http-nio-8080-exec-8] INFO  c.v.s.services.CommandeService - Commande with id [1] updated
+""2022-08-29 13:10:21 [http-nio-8080-exec-9] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 13:10:36 [http-nio-8080-exec-10] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients 
+""2022-08-29 13:10:38 [http-nio-8080-exec-1] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 13:11:44 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 13:11:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-08-29 13:11:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-08-29 17:19:05 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Starting SpringBootAppApplication using Java 14.0.2 on DESKTOP-5T9VTNI with PID 1664 (E:\Stage_pfa_2022\workspace\Spring-Boot-App\target\classes started by user in E:\Stage_pfa_2022\workspace\Spring-Boot-App)
+""2022-08-29 17:19:05 [restartedMain] INFO  c.v.s.SpringBootAppApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-08-29 17:19:06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-08-29 17:19:06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-08-29 17:19:09 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-08-29 17:19:09 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 170 ms. Found 2 JPA repository interfaces.
+""2022-08-29 17:19:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-08-29 17:19:12 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-08-29 17:19:12 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+""2022-08-29 17:19:12 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+""2022-08-29 17:19:12 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6373 ms
+""2022-08-29 17:19:12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-08-29 17:19:13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-08-29 17:19:13 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/db_demo?createDatabaseIfNotExist=true'
+""2022-08-29 17:19:14 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-08-29 17:19:14 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+""2022-08-29 17:19:14 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-08-29 17:19:15 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2022-08-29 17:19:18 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-08-29 17:19:18 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 17:19:20 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-08-29 17:19:21 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-08-29 17:19:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api/v1'
+""2022-08-29 17:19:21 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Started SpringBootAppApplication in 18.377 seconds (JVM running for 28.479)
+""2022-08-29 17:22:31 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-08-29 17:22:31 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-08-29 17:22:31 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+""2022-08-29 17:22:31 [http-nio-8080-exec-1] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients 
+""2022-08-29 17:22:35 [http-nio-8080-exec-2] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 17:24:49 [http-nio-8080-exec-3] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 17:26:02 [http-nio-8080-exec-4] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 17:26:05 [http-nio-8080-exec-5] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 17:26:25 [http-nio-8080-exec-6] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 17:38:40 [http-nio-8080-exec-7] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 17:48:14 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 17:48:14 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-08-29 17:48:14 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-08-29 17:51:27 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Starting SpringBootAppApplication using Java 14.0.2 on DESKTOP-5T9VTNI with PID 7520 (E:\Stage_pfa_2022\workspace\Spring-Boot-App\target\classes started by user in E:\Stage_pfa_2022\workspace\Spring-Boot-App)
+""2022-08-29 17:51:27 [restartedMain] INFO  c.v.s.SpringBootAppApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-08-29 17:51:27 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-08-29 17:51:27 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-08-29 17:51:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-08-29 17:51:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+""2022-08-29 17:51:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-08-29 17:51:29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-08-29 17:51:29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+""2022-08-29 17:51:30 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+""2022-08-29 17:51:30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2826 ms
+""2022-08-29 17:51:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-08-29 17:51:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-08-29 17:51:30 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/db_demo?createDatabaseIfNotExist=true'
+""2022-08-29 17:51:30 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-08-29 17:51:30 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+""2022-08-29 17:51:30 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-08-29 17:51:30 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2022-08-29 17:51:31 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-08-29 17:51:31 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 17:51:32 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commandeController': Unsatisfied dependency expressed through field 'commandeService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commandeService': Unsatisfied dependency expressed through field 'commandeRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commandeRepository' defined in com.valueit.springbootapp.repository.CommandeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long); Reason: Paging query needs to have a Pageable parameter; Offending method: public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long); nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter; Offending method: public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long)
+""2022-08-29 17:51:32 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 17:51:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-08-29 17:51:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-08-29 17:51:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2022-08-29 17:51:32 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2022-08-29 17:51:32 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+"org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commandeController': Unsatisfied dependency expressed through field 'commandeService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commandeService': Unsatisfied dependency expressed through field 'commandeRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commandeRepository' defined in com.valueit.springbootapp.repository.CommandeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long); Reason: Paging query needs to have a Pageable parameter; Offending method: public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long); nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter; Offending method: public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.valueit.springbootapp.SpringBootAppApplication.main(SpringBootAppApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commandeService': Unsatisfied dependency expressed through field 'commandeRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commandeRepository' defined in com.valueit.springbootapp.repository.CommandeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long); Reason: Paging query needs to have a Pageable parameter; Offending method: public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long); nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter; Offending method: public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commandeRepository' defined in com.valueit.springbootapp.repository.CommandeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long); Reason: Paging query needs to have a Pageable parameter; Offending method: public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long); nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter; Offending method: public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 39 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long); Reason: Paging query needs to have a Pageable parameter; Offending method: public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long); nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter; Offending method: public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long)
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:107)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:95)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1056)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:97)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:87)
+	at java.base/java.util.Optional.map(Optional.java:258)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:87)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:365)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231)
+	at org.springframework.data.util.Lazy.get(Lazy.java:115)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 49 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter; Offending method: public abstract org.springframework.data.domain.Page com.valueit.springbootapp.repository.CommandeRepository.getCommandeByClientId(long)
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.data.repository.query.QueryMethod.<init>(QueryMethod.java:102)
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.<init>(JpaQueryMethod.java:107)
+	at org.springframework.data.jpa.repository.query.DefaultJpaQueryMethodFactory.build(DefaultJpaQueryMethodFactory.java:44)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:93)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:103)
+	... 71 common frames omitted
+"2022-08-29 17:53:25 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Starting SpringBootAppApplication using Java 14.0.2 on DESKTOP-5T9VTNI with PID 14932 (E:\Stage_pfa_2022\workspace\Spring-Boot-App\target\classes started by user in E:\Stage_pfa_2022\workspace\Spring-Boot-App)
+""2022-08-29 17:53:25 [restartedMain] INFO  c.v.s.SpringBootAppApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-08-29 17:53:25 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-08-29 17:53:25 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-08-29 17:53:26 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-08-29 17:53:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+""2022-08-29 17:53:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-08-29 17:53:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-08-29 17:53:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+""2022-08-29 17:53:27 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+""2022-08-29 17:53:27 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1930 ms
+""2022-08-29 17:53:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-08-29 17:53:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-08-29 17:53:28 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/db_demo?createDatabaseIfNotExist=true'
+""2022-08-29 17:53:28 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-08-29 17:53:28 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+""2022-08-29 17:53:28 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-08-29 17:53:28 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2022-08-29 17:53:29 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-08-29 17:53:29 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 17:53:29 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-08-29 17:53:29 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-08-29 17:53:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api/v1'
+""2022-08-29 17:53:29 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Started SpringBootAppApplication in 4.829 seconds (JVM running for 5.966)
+""2022-08-29 17:53:53 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-08-29 17:53:53 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-08-29 17:53:53 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+""2022-08-29 17:53:53 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+""2022-08-29 17:54:21 [http-nio-8080-exec-3] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 17:54:32 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+""2022-08-29 17:55:03 [http-nio-8080-exec-6] INFO  c.v.s.services.CommandeService - Getting page 0 of 20 commandes 
+""2022-08-29 18:02:43 [http-nio-8080-exec-2] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:02:51 [http-nio-8080-exec-1] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:02:56 [http-nio-8080-exec-3] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:03:40 [http-nio-8080-exec-4] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:04:01 [http-nio-8080-exec-5] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:04:16 [http-nio-8080-exec-6] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:05:33 [http-nio-8080-exec-9] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:06:17 [http-nio-8080-exec-2] INFO  c.v.s.services.ClientService - Getting client with id 6
+""2022-08-29 18:06:17 [http-nio-8080-exec-2] ERROR c.v.s.services.ClientService - Client with id [6] not found
+""2022-08-29 18:06:17 [http-nio-8080-exec-2] ERROR c.v.s.e.handler.AppExceptionHandler - client not found
+""2022-08-29 18:06:17 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.valueit.springbootapp.exception.EntityNotFoundException: client not found]
+""2022-08-29 18:06:22 [http-nio-8080-exec-1] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:06:22 [http-nio-8080-exec-3] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 18:06:34 [http-nio-8080-exec-4] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:06:35 [http-nio-8080-exec-5] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 18:06:39 [http-nio-8080-exec-6] INFO  c.v.s.services.CommandeService - Getting page 0 of 5 commandes 
+""2022-08-29 18:06:40 [http-nio-8080-exec-7] INFO  c.v.s.controller.ClientController - aefksdg;k
+""2022-08-29 18:06:40 [http-nio-8080-exec-7] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients using filter :  ,  
+""2022-08-29 18:06:43 [http-nio-8080-exec-8] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:09:02 [http-nio-8080-exec-10] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:09:18 [http-nio-8080-exec-1] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:09:35 [http-nio-8080-exec-4] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:10:55 [http-nio-8080-exec-6] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:11:09 [http-nio-8080-exec-8] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:11:46 [http-nio-8080-exec-10] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:12:40 [http-nio-8080-exec-1] INFO  c.v.s.controller.ClientController - aefksdg;k
+""2022-08-29 18:12:40 [http-nio-8080-exec-1] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients using filter :  ,  
+""2022-08-29 18:12:44 [http-nio-8080-exec-3] INFO  c.v.s.services.ClientService - Getting client with id 1
+""2022-08-29 18:12:45 [http-nio-8080-exec-4] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients 
+""2022-08-29 18:12:45 [http-nio-8080-exec-3] INFO  c.v.s.services.ClientService - Client with id [1] deleted
+""2022-08-29 18:13:31 [http-nio-8080-exec-5] INFO  c.v.s.controller.ClientController - aefksdg;k
+""2022-08-29 18:13:31 [http-nio-8080-exec-5] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients using filter :  ,  
+""2022-08-29 18:13:55 [http-nio-8080-exec-6] INFO  c.v.s.controller.ClientController - aefksdg;k
+""2022-08-29 18:13:55 [http-nio-8080-exec-6] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients using filter :  ,  
+""2022-08-29 18:14:02 [http-nio-8080-exec-7] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 18:14:05 [http-nio-8080-exec-8] INFO  c.v.s.controller.ClientController - aefksdg;k
+""2022-08-29 18:14:05 [http-nio-8080-exec-8] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients using filter :  ,  
+""2022-08-29 18:14:25 [http-nio-8080-exec-10] INFO  c.v.s.controller.ClientController - aefksdg;k
+""2022-08-29 18:14:25 [http-nio-8080-exec-10] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients using filter :  ,  
+""2022-08-29 18:14:41 [http-nio-8080-exec-2] INFO  c.v.s.services.ClientService - Getting client with id 2
+""2022-08-29 18:15:01 [http-nio-8080-exec-3] INFO  c.v.s.services.CommandeService - Getting page 0 of 3 commandes 
+""2022-08-29 18:15:03 [http-nio-8080-exec-4] INFO  c.v.s.controller.ClientController - aefksdg;k
+""2022-08-29 18:15:03 [http-nio-8080-exec-4] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients using filter :  ,  
+""2022-08-29 18:15:10 [http-nio-8080-exec-5] INFO  c.v.s.services.ClientService - Getting client with id 2
+""2022-08-29 18:15:12 [http-nio-8080-exec-6] INFO  c.v.s.controller.ClientController - aefksdg;k
+""2022-08-29 18:15:12 [http-nio-8080-exec-6] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients using filter :  ,  
+""2022-08-29 18:15:13 [http-nio-8080-exec-7] INFO  c.v.s.services.ClientService - Getting client with id 2
+""2022-08-29 18:15:23 [http-nio-8080-exec-9] INFO  c.v.s.controller.ClientController - aefksdg;k
+""2022-08-29 18:15:23 [http-nio-8080-exec-9] INFO  c.v.s.services.ClientService - Getting page 0 of 3 clients using filter :  ,  
+""2022-08-29 18:32:28 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 23 class path changes (0 additions, 22 deletions, 1 modification)
+""2022-08-29 18:32:28 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2022-08-29 18:32:28 [Thread-5] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2022-08-29 18:32:28 [Thread-5] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [api#v1] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+""2022-08-29 18:32:29 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 18:32:29 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-08-29 18:32:29 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-08-29 18:32:29 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Starting SpringBootAppApplication using Java 14.0.2 on DESKTOP-5T9VTNI with PID 14932 (E:\Stage_pfa_2022\workspace\Spring-Boot-App\target\classes started by user in E:\Stage_pfa_2022\workspace\Spring-Boot-App)
+""2022-08-29 18:32:29 [restartedMain] INFO  c.v.s.SpringBootAppApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-08-29 18:32:30 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-08-29 18:32:30 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+""2022-08-29 18:32:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-08-29 18:32:30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-08-29 18:32:30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+""2022-08-29 18:32:30 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+""2022-08-29 18:32:30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 805 ms
+""2022-08-29 18:32:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-08-29 18:32:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-08-29 18:32:30 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/db_demo?createDatabaseIfNotExist=true'
+""2022-08-29 18:32:30 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-08-29 18:32:30 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2022-08-29 18:32:30 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-08-29 18:32:30 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 18:32:30 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-08-29 18:32:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-08-29 18:32:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api/v1'
+""2022-08-29 18:32:31 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Started SpringBootAppApplication in 1.518 seconds (JVM running for 2347.029)
+""2022-08-29 18:32:31 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-08-29 18:32:40 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 22 class path changes (22 additions, 0 deletions, 0 modifications)
+""2022-08-29 18:32:40 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2022-08-29 18:32:40 [Thread-7] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [api#v1] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+""2022-08-29 18:32:40 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 18:32:40 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+""2022-08-29 18:32:40 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+""2022-08-29 18:32:40 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Starting SpringBootAppApplication using Java 14.0.2 on DESKTOP-5T9VTNI with PID 14932 (E:\Stage_pfa_2022\workspace\Spring-Boot-App\target\classes started by user in E:\Stage_pfa_2022\workspace\Spring-Boot-App)
+""2022-08-29 18:32:40 [restartedMain] INFO  c.v.s.SpringBootAppApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-08-29 18:32:41 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-08-29 18:32:41 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+""2022-08-29 18:32:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-08-29 18:32:41 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-08-29 18:32:41 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+""2022-08-29 18:32:41 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+""2022-08-29 18:32:41 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 693 ms
+""2022-08-29 18:32:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+""2022-08-29 18:32:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+""2022-08-29 18:32:41 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/db_demo?createDatabaseIfNotExist=true'
+""2022-08-29 18:32:41 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-08-29 18:32:41 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2022-08-29 18:32:41 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-08-29 18:32:41 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 18:32:41 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-08-29 18:32:42 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-08-29 18:32:42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api/v1'
+""2022-08-29 18:32:42 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Started SpringBootAppApplication in 1.459 seconds (JVM running for 2358.167)
+""2022-08-29 18:32:42 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-08-29 21:52:32 [HikariPool-3 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=3h11m42s698ms990µs200ns).
+""2022-08-29 21:55:47 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+""2022-08-29 21:55:48 [Thread-11] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2022-08-29 21:55:48 [Thread-11] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [api#v1] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+""2022-08-29 21:55:49 [Thread-11] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 21:55:49 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+""2022-08-29 21:55:49 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+""2022-08-29 21:55:49 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Starting SpringBootAppApplication using Java 14.0.2 on DESKTOP-5T9VTNI with PID 14932 (E:\Stage_pfa_2022\workspace\Spring-Boot-App\target\classes started by user in E:\Stage_pfa_2022\workspace\Spring-Boot-App)
+""2022-08-29 21:55:49 [restartedMain] INFO  c.v.s.SpringBootAppApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-08-29 21:55:50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-08-29 21:55:50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+""2022-08-29 21:55:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-08-29 21:55:51 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-08-29 21:55:51 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+""2022-08-29 21:55:51 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+""2022-08-29 21:55:51 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1545 ms
+""2022-08-29 21:55:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+""2022-08-29 21:55:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+""2022-08-29 21:55:51 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/db_demo?createDatabaseIfNotExist=true'
+""2022-08-29 21:55:51 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-08-29 21:55:51 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2022-08-29 21:55:51 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-08-29 21:55:51 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 21:55:51 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientController' defined in file [E:\Stage_pfa_2022\workspace\Spring-Boot-App\target\classes\com\valueit\springbootapp\controller\ClientController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.valueit.springbootapp.controller.ClientController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@504b97b]
+""2022-08-29 21:55:51 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 21:55:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+""2022-08-29 21:55:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+""2022-08-29 21:55:51 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2022-08-29 21:55:51 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2022-08-29 21:55:51 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+"org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientController' defined in file [E:\Stage_pfa_2022\workspace\Spring-Boot-App\target\classes\com\valueit\springbootapp\controller\ClientController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.valueit.springbootapp.controller.ClientController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@504b97b]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.3.jar:2.7.3]
+	at com.valueit.springbootapp.SpringBootAppApplication.main(SpringBootAppApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.3.jar:2.7.3]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.valueit.springbootapp.controller.ClientController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@504b97b]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:743) ~[spring-core-5.3.22.jar:5.3.22]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:675) ~[spring-core-5.3.22.jar:5.3.22]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:407) ~[spring-orm-5.3.22.jar:5.3.22]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:388) ~[spring-orm-5.3.22.jar:5.3.22]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:335) ~[spring-orm-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/valueit/springbootapp/services/ClientService;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3139) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2262) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:738) ~[spring-core-5.3.22.jar:5.3.22]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.valueit.springbootapp.services.ClientService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:427) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.7.3.jar:2.7.3]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[na:na]
+	... 30 common frames omitted
+"2022-08-29 21:55:54 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Starting SpringBootAppApplication using Java 14.0.2 on DESKTOP-5T9VTNI with PID 14932 (E:\Stage_pfa_2022\workspace\Spring-Boot-App\target\classes started by user in E:\Stage_pfa_2022\workspace\Spring-Boot-App)
+""2022-08-29 21:55:54 [restartedMain] INFO  c.v.s.SpringBootAppApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-08-29 21:55:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-08-29 21:55:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+""2022-08-29 21:55:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-08-29 21:55:54 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-08-29 21:55:54 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+""2022-08-29 21:55:55 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+""2022-08-29 21:55:55 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 638 ms
+""2022-08-29 21:55:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+""2022-08-29 21:55:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+""2022-08-29 21:55:55 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/db_demo?createDatabaseIfNotExist=true'
+""2022-08-29 21:55:55 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-08-29 21:55:55 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2022-08-29 21:55:55 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-08-29 21:55:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 21:55:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-08-29 21:55:55 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-08-29 21:55:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api/v1'
+""2022-08-29 21:55:55 [restartedMain] INFO  c.v.s.SpringBootAppApplication - Started SpringBootAppApplication in 1.518 seconds (JVM running for 14551.819)
+""2022-08-29 21:55:55 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-08-29 22:05:58 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-08-29 22:05:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+""2022-08-29 22:05:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+"
